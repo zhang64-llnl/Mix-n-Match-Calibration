@@ -1,9 +1,9 @@
 # Mix-n-Match-Calibration
 
-This repository contains code that accompanies the paper [Mix-n-Match: Ensemble and Compositional Methods for Uncertainty Calibration in Deep Learning](https://arxiv.org/abs/2003.07329). Please see the paper for more details.
+This repository contains code that accompanies the ICML 2020 paper [Mix-n-Match: Ensemble and Compositional Methods for Uncertainty Calibration in Deep Learning](https://arxiv.org/abs/2003.07329). Please see the paper for more details.
 
 
-The code is currently under internal review and will be released as soon as possible.
+LLNL CP Number: CP02333.
 
 
 
