@@ -11,7 +11,7 @@ from util_evaluation import ece_eval_binary
 
 dataset = 'cifar100'
 n_class = 100
-data = np.load('/Users/zhang64/temperature_scaling/wideresnet-28x10cifar100epochs500.npz')
+data = np.load('wideresnet-28x10cifar100epochs500.npz')
 
 # logits: n_data * n_class matrix
 logit_total = data['arr_0']
