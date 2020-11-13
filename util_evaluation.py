@@ -180,6 +180,6 @@ def ece_eval_binary(p, label):
     accu = (np.sum((np.argmax(p,1)-np.array([np.where(r==1)[0][0] for r in label]))==0)/p.shape[0]) # Accuracy
     ece = ece_hist_binary(p,label).cpu().numpy() # ECE
     # or if KDE is used
-    ece = ece_hist_kde(p,label)   
+    ece = ece_kde_binary(p,label)   
 
     return ece, nll, mse, accu
